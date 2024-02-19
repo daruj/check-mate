@@ -1,70 +1,70 @@
 {
-  "workbench.iconTheme": "vscode-icons",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "typescript.preferences.importModuleSpecifier": "relative",
-  "editor.formatOnPaste": true,
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.showExpandedAbbreviation": "never",
-  "[javascript]": {
+    "workbench.iconTheme": "vscode-icons",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "editor.formatOnPaste": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showExpandedAbbreviation": "never",
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact,typescript,typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.endOfLine": "lf",
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact,typescript,typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "prettier.endOfLine": "lf",
-  "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "prettier.printWidth": 120,
-  "prettier.tabWidth": 4,
-  "vsicons.dontShowNewVersionMessage": true,
-  "explorer.confirmDragAndDrop": false,
-  "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
-  "search.exclude": {
-    "**/node_modules": false,
-    "**/node_moduless": true
-  },
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "mochaExplorer.env": {},
-  "editor.inlineSuggest.enabled": true,
-  "workbench.startupEditor": "none",
-  "cSpell.userWords": ["Burako", "recaptcha", "tamagui"],
-  "nxConsole.showNodeVersionOnStartup": false,
-  "window.zoomLevel": 1
+    "search.exclude": {
+        "**/node_modules": false,
+        "**/node_moduless": true
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "mochaExplorer.env": {},
+    "editor.inlineSuggest.enabled": true,
+    "workbench.startupEditor": "none",
+    "cSpell.userWords": ["Burako", "recaptcha", "tamagui"],
+    "nxConsole.showNodeVersionOnStartup": false,
+    "window.zoomLevel": 1
 }
